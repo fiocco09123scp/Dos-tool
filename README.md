@@ -7,9 +7,7 @@ I added a log system that saves everything on txt files
 
 # !!! Important !!!
 
-The .bat file you can find im the reposity CAN'T DISPLAY THE COLORS it was used by me to develop the code
-+ is in italian
-
+The .bat file you can find im the reposity CAN'T DISPLAY THE COLORS it was used by me to develop the code and it is all in italian
 
 # Use
 
