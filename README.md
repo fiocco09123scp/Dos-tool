@@ -2,7 +2,7 @@
 
 # !!! Disclaimer !!!
 
-This tool wasn't created by me or Ultimate Developers, it was developed by depascaldc (Original repository ---> https://github.com/depascaldc/DoS-Tool)
+This tool wasn't created by me or Ultimate Developers, it was developed by depascaldc (Original repository ---> [link](https://github.com/depascaldc/DoS-Tool) )
 I added a log system that saves everything on txt files
 
 
