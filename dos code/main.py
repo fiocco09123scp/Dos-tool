@@ -10,12 +10,13 @@ import os
 import socket
 import random
 import datetime
+from colorama import Fore, Style, init
 from threading import Thread
 
 
 # -- 
 
-
+init()
 cartella_log = "logs"
 data_ora_corrente = datetime.datetime.now()
 nome_file = data_ora_corrente.strftime("%Y-%m-%d_%H-%M-%S.txt")
@@ -63,12 +64,12 @@ if not __name__ == "__main__":
       
 
 class ConsoleColors:
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    BOLD = '\033[1m'
+
+    OKBLUE = Fore.LIGHTBLUE_EX
+    OKGREEN = Fore.GREEN
+    WARNING = Fore.YELLOW
+    FAIL = Fore.RED
+    BOLD = Style.RESET_ALL
     
 
 log(message= ConsoleColors.BOLD + ConsoleColors.WARNING + '''
